@@ -1,0 +1,10 @@
+1.	SELECT COUNT (ID) FROM teamoluwapelumialake2021;
+2.	SELECT COUNT (*) FROM teamoluwapelumialake2021 WHERE DEPARTMENT='Accounting';
+3.	
+4.	SELECT * FROM teamoluwapelumialake2021 WHERE ID BETWEEN 1 AND 5;
+5.	SELECT * FROM teamoluwapelumialake2021 WHERE Age BETWEEN 19 AND 26;
+6.	
+7.	
+8.	UPDATE teamoluwapelumialake2021 SET Status='Activated' WHERE Status='Pending';
+9.	UPDATE teamoluwapelumialake2021 SET Name='TIMOTHY' WHERE ID=2;
+10.	SELECT department, COUNT(*) FROM teamoluwapelumialake2021 GROUP BY department;
